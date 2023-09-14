@@ -1,0 +1,310 @@
+:root{
+    --header-color: #1c2333;
+    --body-color:#0e1525;
+    --title-font-color:rgb(200, 190, 190);
+    --title-font-family: cursive;
+    --title-h1-font-size:2.5rem;
+    --title-h2-font-size:2rem;
+    --skills-cell-color:#2779bc;
+    --text-color:whitesmoke;
+    --text-font-family:'Courier New', Courier, monospace, sans-serif;
+    --cv-shadow-color:aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+}
+
+#back-to-top{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: .5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    border: 1px var(--text-color) solid;
+}
+
+video{
+    width: 100%;
+}
+
+/* Educational Pathway begining */
+
+
+.main-title-sec{
+    height: max-content;
+    width: 90rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.h1-titles{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    padding: .5rem 0rem;
+    color: var(--title-font-color);
+    font-family: var(--title-font-family);
+    font-size: var(--title-h1-font-size);
+}
+
+.aside-left{
+    width: 50rem;
+    border-right: 2px white dashed;
+    box-shadow: 2px 3px 3px rgb(98, 145, 172);
+    padding-right: 0.5rem;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.aside-right{
+    width: 48rem;
+    border-left: 2px white dashed;
+    box-shadow: -2px 3px 3px rgb(98, 145, 172);
+    padding-left: 0.5rem;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+.p-aside{
+    color: var(--text-color);
+}
+
+.h2-titles{
+    width: max-content;
+    height: max-content;
+    padding: .5rem 0rem;
+    color: var(--title-font-color);
+    font-family: var(--title-font-family);
+    font-size: var(--title-h2-font-size);
+}
+
+/* Educational Pathway ending */
+
+/****************************************************************/
+
+/* Programming Skills begining */
+
+
+#programming-skills-sec{
+    /* width: 80rem; */
+    margin: 0 auto;
+}
+
+#programming-skills-table{
+    /* border:2px white solid; */
+    margin: 0 auto;
+    border-spacing: 1rem 2rem;
+}
+
+.programming-skills-table-cell{
+    padding: 0.5rem;
+    border: 2px whitesmoke solid;
+    width: 20rem;
+    text-align: center;
+    background-color: var(--skills-cell-color);
+}
+
+.programming-skills-table-cell:hover{
+    padding: .5rem;
+    border: 2px whitesmoke solid;
+    width: 20rem;
+    text-align: center;
+    background-color: var(--header-color);
+}
+
+
+.programming-skills-table-cell > a {
+    text-decoration: none;
+}
+
+.programming-skills-table-cell > a:hover {
+    text-decoration: none;
+    font-weight: bold;   
+    background-color: var(--header-color);
+     
+}
+
+.programming-skills-table-cell-title{
+    font-family: cursive;
+    font-size:x-large;
+    color: var(--title-font-color);
+    background-color: var(--skills-cell-color);
+    letter-spacing: 2px;
+
+}
+
+.programming-skills-table-cell-title:hover{
+    font-family: cursive;
+    font-size:x-large;
+    text-decoration: underline;
+    color: var(--title-font-color);
+    background-color: var(--skills-cell-color);
+    letter-spacing: 3px;
+
+
+}
+
+.programming-skills-table-cell-desc{
+    font-family: var(--text-font-family);
+    color: var(--body-color);
+    background-color: var(--skills-cell-color);
+
+}
+
+.programming-table-cell-details-sec{
+    border-top: 2px var(--title-font-color) solid;
+    border-bottom: 2px var(--title-font-color) solid;
+    margin: .5rem auto;
+    padding: 1rem 0;
+    width: 70rem;
+}
+
+.programming-skill-title{
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1rem;
+    width: min-content;
+}
+
+.programming-skill-logo{
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+
+.programming-skill-desc{
+    color: var(--text-color);
+    font-family: var(--text-font-family);
+    margin-bottom:  1rem;
+}
+
+.programming-skill-table-desc{
+    /* border-top: 2px var(--skills-cell-color) solid; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: max-content;
+}
+
+
+
+
+.programming-skill-table-desc-img > .img{
+    width:25rem;
+    height: 20rem;
+    padding: .5rem;
+}
+
+.programming-skill-table-desc-img > .img-right{
+    border-top-right-radius: 10px;
+    border: 2px var(--text-color) solid;
+}
+
+.programming-skill-table-desc-img > .img-left{
+    border-top-left-radius: 10px;
+    border: 2px var(--text-color) solid;
+}
+
+/* .programming-skill-table-desc-links{
+    width: 25rem;
+    height: 20rem;
+} */
+.programming-skill-table-desc-links-list{
+    color: whitesmoke;
+    /* border: 2px whitesmoke dashed; */
+    width: 25rem;
+    height: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.programming-skill-table-desc-links-list > li{
+    list-style: none;
+    margin: 1rem auto;
+}
+
+.programming-skill-table-desc-links-list > li > a{
+    text-decoration: none;
+    color: var(--title-font-color);
+    font-family: var(--text-font-family);
+}
+
+.programming-skill-table-desc-links-list > li > a:hover{
+    text-decoration: underline;
+    color: var(--title-font-color);
+    font-family: var(--text-font-family);
+    font-weight: bold;
+}
+
+
+/* Programming Skills ending */
+
+
+/* Curriculum vitae begining */
+#iframe_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+#cv-iframe{
+    width: 50rem;
+    height: 70rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3rem var(--cv-shadow-color);
+}
+
+/* Curriculum vitae ending */
+
+
+/* Contact begining */
+
+#contact-me{
+    margin-top: 2rem;
+}
+
+#contact-table{
+    border: 2px var(--text-color) dashed;
+    margin: 0 auto;
+    width: max-content;
+    border-spacing: 2rem;
+}
+
+.contact-type{
+    font-family: var(--text-font-family);
+    color: var(--text-color);
+    padding-right: 2rem;
+    font-size: inherit;
+    text-align: center;
+}
+
+.contact-detail{
+    font-family: var(--text-font-family);
+    padding-right: 2rem;
+    font-size: inherit;
+    text-align: center;
+}
+
+.contact-detail > a{
+    text-decoration: none;
+    color: var(--skills-cell-color);
+}
+
+
+.contact-detail > a:hover {
+    text-decoration: underline;
+    color: #bbd0e1;
+    background-image: linear-gradient(to right, transparent 50%, #b4b6b7 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition-duration: 0.7s;
+  }
+/* Contact vitae ending */
+

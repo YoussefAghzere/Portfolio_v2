@@ -1,0 +1,104 @@
+header{
+    margin: 0;
+    padding: 0;
+    background-color: var(--header-color);
+    display: flex;
+}
+
+
+
+#header-img-section{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: max-content;
+}
+
+
+#header-items-section{
+    background-color: var(--header-color);
+    margin-top: 0.5rem;
+    width: 50rem;
+    margin: auto;
+}
+
+#header-img {
+    width: 3rem;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+#header-items{
+    background-color: var(--header-color);
+    display: flex;
+    float: left;
+}
+
+#header-items > li {
+    background-color: var(--header-color);
+    list-style: none;
+    margin: 1rem;
+}
+
+#header-items > li > a {
+    background-color: var(--header-color);
+    text-decoration: none;
+    color: var(--title-font-color);
+    letter-spacing: 3px;
+    font-family: var(--title-font-family);
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+#header-items > li > a:hover{
+    background-color: var(--header-color);
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-family: var(--title-font-family);
+    font-weight: bolder;
+    font-size:large;
+}
+
+
+#header-items > li > a:focus{
+    background-color: var(--header-color);
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-family: var(--title-font-family);
+    font-weight: bolder;
+    font-size:large;
+}
+
+#theme-selector{
+    background-color: var(--header-color);
+    height: max-content;
+}
+
+#theme-mode{
+    width: 2.5rem;
+    height: max-content;
+    background-color: var(--header-color);
+    padding-right: 1rem;
+    padding-top: 1rem;
+    cursor:pointer;
+
+}
+
+
+
+.root-dark-mode{
+    --header-color: rgb(237, 235, 235) ;
+    --body-color: rgb(237, 235, 235); /*rgb(200, 190, 190)*/
+    --title-font-color:#1c2333;
+    --title-font-family: cursive;
+    --title-h1-font-size:2.5rem;
+    --title-h2-font-size:2rem;
+    --skills-cell-color:#2779bc;
+    --text-color: #0e1525;
+    --text-font-family:'Courier New', Courier, monospace, sans-serif;
+    --cv-shadow-color: #2779bc;
+}
+
+
